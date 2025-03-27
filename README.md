@@ -1,138 +1,110 @@
-# RETROTHON-020
-# Project Name : part 1: DevSync Platform
+# 🚀 RETROTHON-020
+# 📌 Project Name: DevSync Extension (PS: Project Development and Assistance Platform)
 
-## 1. Team Name
-**[Your Team Name Here]**
+## 🎭 1. Team Name
+**[Team Illusion]**
 
-## 2. Team Members
-| Name | Contact Number | Email |
+## 👥 2. Team Members
+| 🏷 Name | 📞 Contact Number | 📧 Email |
 |------|---------------|-------|
-| [Vrashab Timmannavar] | [9422642149] | [vrashab.dev@gmail.com] |
-| [Vardhaman Ganpule] | [91684 36525] | [vardhaman.ganpule@gmail.com] |
-| [Ishan Parab] | [] | [74990 14563] | [ishanparab@yahoo.com] |
+| Vrashab Timmannavar | 📱 9422642149 | 📩 vrashab.dev@gmail.com |
+| Vardhaman Ganpule | 📱 91684 36525 | 📩 vardhaman.ganpule@gmail.com |
+| Ishan Parab | 📱 74990 14563 | 📩 ishanparab@yahoo.com |
 
-## 3. Individual Contributions
-- **[Member 1]**: Backend development, API integration
-- **[Member 2]**: Frontend development, UI/UX design
-- **[Member 3]**: Database management, DevOps
+## 🔍 Overview
 
-## 4. Folder Structure (Summarized)
+DevSync is a 🛠 Visual Studio Code extension designed to automate project understanding by mapping 📜 Software Requirement Specifications (SRS) to code, providing 📖 interactive documentation, and assisting developers with 🏗 guided onboarding. This extension enhances the development experience by offering 🧭 intelligent project navigation, 🤖 AI-powered search, and 🔄 real-time documentation updates.
+
+## 👤 3. Individual Contributions
+- **Vrashab Timmannavar**: 🤖 AI Integration and 📜 Interactive Documentation Generation
+- **Vardhaman Ganpule**: 🔗 GitHub Integration, 🗺 SRS-to-Code Mapping, 👨‍🏫 Guided Onboarding for Developers
+- **Ishan Parab**: 🔍 Dependency & 🎨 Architecture Visualization
+
+## 📂 4. File/Folder Structure
 ```
-backend/
- ├── node_modules/
- ├── src/
- ├── .env
- ├── docker-compose.yml
- ├── Dockerfile
- ├── package.json
- ├── README.md
-
-public/
-
-src/
-
-root directory/
- ├── .gitignore
- ├── package.json
- ├── README.md
- ├── tailwind.config.ts
- ├── tsconfig.json
- ├── vite.config.ts
-```
-
-## 5. Approach to Solve the Problem
-- We identified the core challenges and designed a modular architecture.
-- Implemented an API-driven backend to facilitate seamless communication.
-- Utilized modern frontend frameworks for an intuitive user interface.
-- Incorporated Web3 features for secure interactions.
-- Ensured scalability with Docker and CI/CD pipelines.
-
-## 6. Tech Stack
-- **Frontend**: React.js, Tailwind CSS, Vite
-- **Backend**: Node.js, Express.js, OpenAI API
-- **Database**: MongoDB
-- **DevOps**: Docker, CI/CD
-- **Web3**: Solidity, Smart Contracts
-
-## 7. Build and Run Commands
-### Backend
-```sh
-cd backend
-npm install
-npm run dev
-```
-
-### Frontend
-```sh
-cd frontend
-npm install
-npm run dev
-```
-# PS8 Part 2: DevSync Platform
-
-## Overview
-
-PS8 is a Visual Studio Code extension designed to automate project understanding by mapping Software Requirement Specifications (SRS) to code, providing interactive documentation, and assisting developers with guided onboarding. This extension aims to enhance the development experience by offering intelligent project navigation, AI-powered search, and real-time documentation updates.
-
-## Key Features
-
-- *SRS-to-Code Mapping*: Automatically analyze SRS documents and link them to relevant sections in the code.
-- *Intelligent Project Navigation*: Auto-generate a Project Explorer that visually maps dependencies and relationships between files.
-- *Auto-Generated Documentation*: Real-time documentation updates based on code changes, with the ability to manually refresh documentation.
-- *Guided Onboarding*: Interactive step-by-step onboarding for new developers to quickly understand the codebase.
-- *AI-Powered Search & Contextual Assistance*: Use AI to provide context-aware suggestions and explanations of the project structure.
-- *GitHub Integration*: Fetch project repositories and show dependencies, with auto-synchronization of documentation.
-- *Dependency & Visualization Tools*: Provide real-time dependency graphs to show how different modules interact.
-
-## File Structure
-
 ps8-extension/
-├── .vscode/                     # VS Code specific settings
-├── src/                         # Source files
-│   ├── autoDocUpdater.ts        # AutoDocUpdater class for documentation management
-│   ├── codeTourManager.ts       # Code tour management functionality
-│   ├── contextualSearch.ts      # Contextual search functionality
-│   ├── customExplorer.ts        # Custom explorer panel
-│   ├── dependencyVisualizer.ts   # Dependency visualization logic
-│   ├── extension.ts             # Main entry point for the extension
-│   ├── githubService.ts         # GitHub integration service
-│   ├── treeViewProvider.ts      # File explorer tree view provider
-│   └── webviewPanel.ts          # Webview panel for displaying documentation
-├── package.json                 # Extension metadata and dependencies
-├── tsconfig.json                # TypeScript configuration
-├── README.md                    # Project documentation
-└── LICENSE                      # License information
+├── .vscode/                     # ⚙️ VS Code specific settings
+├── src/                         # 📦 Source files
+│   ├── autoDocUpdater.ts        # 🔄 AutoDocUpdater class for documentation management
+│   ├── codeTourManager.ts       # 🏗 Code tour management functionality
+│   ├── contextualSearch.ts      # 🔍 Contextual search functionality
+│   ├── customExplorer.ts        # 🗂 Custom explorer panel
+│   ├── dependencyVisualizer.ts  # 🎨 Dependency visualization logic
+│   ├── extension.ts             # 🎯 Main entry point for the extension
+│   ├── githubService.ts         # 🔗 GitHub integration service
+│   ├── treeViewProvider.ts      # 🌲 File explorer tree view provider
+│   ├── webviewPanel.ts          # 🖥 Webview panel for displaying documentation
+├── package.json                 # 📜 Extension metadata and dependencies
+├── tsconfig.json                # ⚙️ TypeScript configuration
+├── README.md                    # 📖 Project documentation
+└── LICENSE                      # 📝 License information
+```
 
+## 📑 5. File Descriptions
 
-## File Descriptions
+- **.vscode/**: ⚙️ Contains settings specific to Visual Studio Code.
+- **src/**: 📂 The main directory containing all source files.
+  - **autoDocUpdater.ts**: 🔄 Manages automatic updates to documentation.
+  - **codeTourManager.ts**: 🏗 Facilitates interactive tours for onboarding developers.
+  - **contextualSearch.ts**: 🔍 Implements contextual search.
+  - **customExplorer.ts**: 🗂 Defines a custom file explorer panel.
+  - **dependencyVisualizer.ts**: 🎨 Provides tools for visualizing dependencies.
+  - **extension.ts**: 🎯 Main entry point for the extension.
+  - **githubService.ts**: 🔗 Handles GitHub integration.
+  - **treeViewProvider.ts**: 🌲 Implements a tree view for project navigation.
+  - **webviewPanel.ts**: 🖥 Manages a webview panel for interactive documentation.
+- **package.json**: 📜 Contains metadata about the extension.
+- **tsconfig.json**: ⚙️ TypeScript configuration file.
+- **README.md**: 📖 Project documentation.
+- **LICENSE**: 📝 Specifies the project's licensing terms.
 
-- **.vscode/**: Contains settings specific to Visual Studio Code, such as workspace configurations and debugging settings.
+## 🛠 6. Approach to Solve the Problem
 
-- **src/**: The main directory containing all source files for the extension.
+Initially, we considered developing a 🌐 web-based solution. However, after evaluating the challenges developers face while navigating repositories, we decided to build a 🏗 VS Code extension for a more seamless and integrated experience.
 
-  - **autoDocUpdater.ts**: This file contains the AutoDocUpdater class, which manages automatic updates to documentation based on changes in the codebase. It watches for file changes and generates a markdown file that reflects the current state of the project.
+### 🎯 Solution Highlights:
+- **📜 SRS-to-Code Mapping**: Automatically link SRS requirements to relevant code sections.
+- **🧭 Intelligent Navigation**: Provide structured insights into project architecture.
+- **📖 Interactive Documentation**: Dynamically update documentation based on commits.
+- **👨‍🏫 Guided Onboarding**: Step-by-step breakdown of project components.
+- **🔍 AI-powered Search**: Contextual search to locate relevant code snippets.
+- **🔗 GitHub Integration**: Sync repositories for real-time tracking.
+- **🎨 Dependency Visualization**: Graphical representation of module interactions.
 
-  - **codeTourManager.ts**: This file includes the CodeTourManager class, which facilitates interactive tours of the codebase. It helps new developers understand the structure and functionality of the project through guided walkthroughs.
+By embedding these features directly within VS Code, we ensure developers can 🏗 understand, explore, and contribute to projects efficiently without leaving their IDE.
 
-  - **contextualSearch.ts**: This file implements functionality for performing contextual searches across the codebase, allowing developers to find relevant code snippets and documentation quickly.
+## 🏗 7. Tech Stack
 
-  - **customExplorer.ts**: This file defines the CustomExplorerPanel class, which creates a custom file explorer panel within Visual Studio Code. It enhances navigation through the project's files and folders.
+### 1️⃣ Core Development
+- **🖥 Language**: TypeScript (for VS Code extension development)
+- **🚀 Framework**: Node.js (for backend services)
+- **🛠 VS Code API**: To interact with the editor and provide UI elements
 
-  - **dependencyVisualizer.ts**: This file contains the DependencyVisualizer class, which provides tools for visualizing dependencies between different modules in the project. It helps identify relationships and potential bottlenecks.
+### 2️⃣ GitHub Integration
+- **🔗 GitHub REST API**: Fetch repositories, commits, and pull requests
+- **🔍 GitHub GraphQL API**: Query structured repository data efficiently
 
-  - **extension.ts**: The main entry point for the extension. This file registers commands, initializes services, and sets up the extension's functionality.
+### 3️⃣ SRS-to-Code Mapping & Search
+- **🧠 LangChain.js / OpenAI API**: AI-powered code understanding and feature mapping
+- **🔍 AST Parsing (Abstract Syntax Trees)**: To analyze code structure and match SRS requirements
 
-  - **githubService.ts**: This file includes the GitHubService class, which handles integration with GitHub. It allows fetching repositories, managing dependencies, and synchronizing documentation with the repository.
+### 4️⃣ Interactive Documentation
+- **📜 Markdown & Docusaurus**: Generate and manage documentation dynamically
+- **🖥 VS Code Webview API**: Display interactive documentation inside VS Code
 
-  - **treeViewProvider.ts**: This file defines the FileExplorerProvider class, which provides a tree view of files and folders in the project. It enhances the user experience by allowing easy navigation through the project's structure.
+### 5️⃣ Dependency & Architecture Visualization
+- **📊 Graphviz / D3.js**: For visualizing project structure and dependencies
+- **🔍 AST-based Analysis**: To map function and module interactions
 
-  - **webviewPanel.ts**: This file manages a webview panel for displaying documentation interactively. It allows users to view and interact with documentation directly within Visual Studio Code.
+## 🚀 Key Features
 
-- **package.json**: Contains metadata about the extension, including its name, version, description, activation events, and dependencies.
+- **📜 SRS-to-Code Mapping**: Automatically analyze SRS documents and link them to relevant code sections.
+- **🧭 Intelligent Project Navigation**: Auto-generate a project explorer that maps dependencies.
+- **📖 Auto-Generated Documentation**: Real-time documentation updates based on code changes.
+- **👨‍🏫 Guided Onboarding**: Interactive onboarding for new developers.
+- **🔍 AI-Powered Search & Contextual Assistance**: Use AI to provide context-aware suggestions.
+- **🔗 GitHub Integration**: Fetch project repositories and auto-synchronize documentation.
+- **🎨 Dependency & Visualization Tools**: Provide real-time dependency graphs.
 
-- **tsconfig.json**: TypeScript configuration file that specifies the compiler options and the files to be included in the compilation.
-
-- **README.md**: This file provides documentation for the project, including an overview, features, and file structure.
-
-- **LICENSE**: Contains the license information for the project, specifying the terms under which the code can be used and distributed.
+**Video Link**:[]
 
