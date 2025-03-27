@@ -1,5 +1,5 @@
 # 🚀 RETROTHON-020
-# 📌 Project Name: DevSync Extension (PS: Project Development and Assistance Platform)
+# 📌 Project Name: DevSync Extension (PS8: Project Development and Assistance Platform)
 
 ## 🎭 1. Team Name
 **[Team Illusion]**
