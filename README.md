@@ -2,7 +2,7 @@
 # 📌 Project Name: DevSync Extension (PS8: Project Development and Assistance Platform)
 
 ## 🎭 1. Team Name
-**[Team Illusion]**
+**Team Illusion**
 
 ## 👥 2. Team Members
 | 🏷 Name | 📞 Contact Number | 📧 Email |
