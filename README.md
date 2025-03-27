@@ -106,5 +106,5 @@ By embedding these features directly within VS Code, we ensure developers can �
 - **🔗 GitHub Integration**: Fetch project repositories and auto-synchronize documentation.
 - **🎨 Dependency & Visualization Tools**: Provide real-time dependency graphs.
 
-**Video Link**:[]
+**Video Link**:[https://drive.google.com/drive/folders/13zUXEFIw_n99TtlrQAuZZdpFtgOnzIHw?usp=drive_link]
 
